@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <!-- <link rel="stylesheet" href="https://unpkg.com/tachyons@4.10.0/css/tachyons.min.css"/> -->
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.8.0/p5.min.js" integrity="sha256-KDK3xm/GlUAv2dBVItuCM6jjCCtAVrjEfsdpcuMbN5M=" crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.8.0/addons/p5.sound.min.js" integrity="sha256-GdlroanCXFgv0ILaTQ1v0qnNxc+FQNjjXADWxmtr7PM=" crossorigin="anonymous"></script>
+	<title>Data Selfie App</title>
+
+	<script src="libraries/p5.js"></script>
+	<script src="libraries/p5.dom.js"></script>
+	<script src="libraries/p5.sound.js"></script>
+    <link rel="stylesheet" type="text/css" href="style.css" />
+</head>
+<body>
+
+
+<h1>Data Selfie App</h1>
+
+<h2>Hello</h2>
+
+<button onclick="window.location.href='sketch.html'">Continue</button>
+<p>
+	latitude: <span id="latitude"></span>&deg;<br />
+	longitude: <span id="longitude"></span>&deg;
+</p>
+<label for="mood"> </label>
+<input id="mood" value=" " />
+<button id="submit">submit</button>
+
+<script src="location.js"> </script>
+</body>
+</html>

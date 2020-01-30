@@ -1,0 +1,19 @@
+{
+  "name": "mysketch",
+  "version": "1.0.0",
+  "description": "This is a 3D app deployed to AWS",
+  "main": "index.js",
+  "dependencies": {
+    "express": "^4.17.1",
+    "nedb": "^1.8.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "example"
+  ],
+  "author": "Aaron Amato",
+  "license": "MIT"
+}
